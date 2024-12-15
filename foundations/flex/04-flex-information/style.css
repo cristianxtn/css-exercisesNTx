@@ -23,13 +23,15 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 
 #content-plants {
   display: flex;
   flex-basis: auto;
   justify-content: center;
-  gap: 32px;
+  gap: 60px;
+  padding: 10px;
 }
 
 .plant {
