@@ -14,12 +14,15 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .header, .footer {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 ul {
@@ -31,10 +34,19 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(99, 99, 99);
+}
+
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.footer {
+  background-color: rgb(235, 235, 235);
 }
 
 img {
