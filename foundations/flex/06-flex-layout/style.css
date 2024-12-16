@@ -43,6 +43,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 12px;
 }
 
 .footer {
@@ -53,11 +54,17 @@ img {
   width: 600px;
 }
 
+.buttons {
+  display: flex;
+  gap: 4px;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
